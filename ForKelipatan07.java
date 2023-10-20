@@ -9,6 +9,7 @@ public class ForKelipatan07{
         int kelipatan;
         int total = 0;
         int counter = 0;
+        double ratarata;
 
         System.out.print("Masukan bilangan kelipatan (1-9) : ");
 
@@ -22,9 +23,11 @@ public class ForKelipatan07{
                 
             }
         }
-
+        ratarata = (double) total / counter;
         System.out.printf("Banyaknya bilangan dari %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
 
         System.out.printf("Total bilangan kelipatan %d dari 1 sampai 50 adalah %d\n", kelipatan, total);
+
+        System.out.printf("Rata - rata dari seluruh bilangan kelipatan: " + ratarata);
     }
 }
